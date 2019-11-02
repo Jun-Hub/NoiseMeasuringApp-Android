@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAE3D9"
+    android:orientation="vertical"
+    tools:context="noisy.desibel.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+    <EditText
+        android:id="@+id/placeEdittext"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/customed_edittext"
+        android:imeOptions="actionDone"
+        android:hint="측정할 장소"
+        android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="null"
+            android:paddingLeft="5dp"
+            android:textColor="#61C0BF"
+            android:textSize="16sp"   />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="--"
+            android:textColor="#000000"
+            android:textSize="110sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textview"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/textview"
+            android:text="dB"
+            android:textColor="#000000"
+            android:textSize="55sp" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="조용한 도서관"
+            android:textColor="#7f7f7f"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview3"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="(사람없음)"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview3"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="70dp">
+
+            <Button
+                android:id="@+id/startBtn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/customed_button"
+                android:text="start"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/stopBtn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/customed_button"
+                android:text="stop"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FAE3D9" />
+
+</LinearLayout>

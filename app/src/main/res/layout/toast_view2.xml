@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="178dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView"
+        android:background="@drawable/dog"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#af2d23"
+        android:textSize="25sp"
+        android:layout_below="@+id/imageView"
+        android:text="이미 측정중 입니다!!"/>
+
+</RelativeLayout>
