@@ -7,6 +7,11 @@ Screenshots
 ![K-020](https://user-images.githubusercontent.com/54348567/68067170-80365480-fd86-11e9-953c-200bccb759b2.png)
 <br>
 
+App Play Video Link
+---------------------------
+https://www.youtube.com/watch?v=4aKGNGEjQbI
+<br>
+
 App Info
 ------------------------------------------------------
 - 스마트폰을 소음 측정하고 싶은 장소에 가서 장소명을 등록한 후 측정을 시작(스마트폰 마이크로 소음 측정) <br>
