@@ -7,7 +7,7 @@ Screenshots
 ![K-020](https://user-images.githubusercontent.com/54348567/68067170-80365480-fd86-11e9-953c-200bccb759b2.png)
 <br>
 
-App Play Video Link
+Demo Link
 ---------------------------
 https://www.youtube.com/watch?v=4aKGNGEjQbI
 <br>
